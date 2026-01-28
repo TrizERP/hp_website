@@ -1,0 +1,125 @@
+/* Dropdown animation classes */
+.dropdown-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  .dropdown-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .dropdown-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .dropdown-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms, transform 300ms;
+  }
+/* Hover effect for nav links */
+.ps-item:hover {
+  background: rgba(#444,#444,#444,0.1);
+}
+.ps-item {
+  opacity: 0; /* Start invisible */
+  transform: translateY(-10px); /* Start slightly above */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for fading and sliding */
+}
+
+.fade-in {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}
+
+.fade-out {
+  opacity: 0; /* Invisible */
+  transform: translateY(-10px); /* Move slightly above */
+}
+.ps-item::before {
+  content: '';
+  display: block;
+  height: 10px;
+  background-color: #f59f0a;
+  position: absolute;
+  top: 100%; /* Position the line below the text */
+  left: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+/* Expand the line width on hover */
+.ps-item:hover::before {
+  width: 100%;
+}
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item {
+  display: block; /* Make the link a block element */
+  padding: 10px 15px; /* Add some padding for better clickability */
+  color: #ffffff; /* Default text color */
+  text-decoration: none; /* Remove underline from links */
+  transition: background 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+  color: rgb(33, 46, 65); /* Change text color if needed */
+}
+  /* General styles for nav links */
+nav button {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative; /* Required for the ::before pseudo-element to be positioned */
+    background: none;
+    border: none;
+  }
+  
+  /* Hover effect for nav links */
+  nav button:hover {
+    color: #e9e7e7;
+  }
+  
+  /* Create a line under the nav item */
+  nav button::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%; /* Position the line below the text */
+    left: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  
+  /* Expand the line width on hover */
+  nav button:hover::before {
+    width: 100%;
+  }
+  
+  /* Exclude 'Contact Us' from the hover effect */
+  nav .contact-button {
+    color: #ffffff; /* Keep the default color */
+  }
+  
+  nav .contact-button:hover::before {
+    width: 0;
+  }
+  
+    /* Hover effect for nav links */
+    .ps-item:hover {
+      color: #5abe41;
+    }
+    
+    /* Expand the line width on hover */
+    .ps-item:hover::before {
+      width: 100%;
+    }
+  

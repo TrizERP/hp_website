@@ -1,0 +1,27 @@
+@keyframes blink {
+    0% {
+      background-color: #7ac244; /* Light green */
+    }
+    50% {
+      background-color: #5e9437; /* Dark green */
+    }
+    100% {
+      background-color: #7ac244; /* Light green */
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 2s infinite;
+  }
+  @font-face {
+    font-family: 'Roboto-Bold';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/Roboto-Bold.ttf') format('ttf'),
+  }
+  @font-face {
+    font-family: 'NotoSans-Bold';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/NotoSans-Bold.ttf') format('ttf'),
+  }

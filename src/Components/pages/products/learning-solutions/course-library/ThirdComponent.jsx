@@ -1,0 +1,113 @@
+export default function Index() {
+  return (
+    <div className="h-fit">
+      <div className="relative lg:py-20 bg-white lg:mx-20 lg:mb-0 sm:mb-5">
+        {/* Top Border Line */}
+        <div className="w-full h-0.5 bg-payroll-dark mb-16"></div>
+
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Title */}
+          <h2 className="font-prompt font-bold text-4xl lg:text-5xl text-payroll-teal text-center mb-20">
+            Key Features
+          </h2>
+
+          {/* Feature 1: Automated Payroll & Compliance */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-24">
+            {/* Image Container */}
+            <div className="relative">
+              <div className="w-full max-w-[370px] h-[394px] rounded-3xl bg-gradient-to-br from-cyan-300 to-teal-300 shadow-lg relative overflow-hidden mx-auto">
+                {/* Decorative Line */}
+                <div className="absolute left-2 right-10 top-[350px] h-0.5 bg-payroll-dark transform rotate-1"></div>
+                <div className="absolute left-9 right-10 top-[355px] h-6 bg-yellow-300 border-2 border-payroll-dark transform rotate-1"></div>
+                {/* Person Image */}
+                <div className="absolute inset-3 rounded-3xl  overflow-hidden">
+                  <img
+                    src="/Detailes page/image 9.jpg"
+                    alt="Professional working on laptop"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="space-y-12">
+              {/* Automated Payroll Processing */}
+              <div>
+                <h3 className="font-prompt font-medium text-3xl lg:text-3xl text-black mb-4">
+                  1-Click Learning Modules 
+                </h3>
+                <p className="font-prompt text-lg lg:text-lg text-black leading-relaxed">
+                  Get straight to the point with ultra-short lessons that drive instant skill application. 
+                  No fluff. Just focus. 
+                </p>
+              </div>
+
+              {/* Compliance & Taxation Management */}
+              <div>
+                <h3 className="font-prompt font-medium text-3xl lg:text-3xl text-black mb-4">
+                   Compliance Made Easy 
+                </h3>
+                <p className="font-prompt text-lg lg:text-lg text-black leading-relaxed">
+                 Stay audit-ready with bite-sized, government-aligned modules on workplace policies, safety, and ethics. 
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Feature 2: Customizable & Self-Service */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Content - Left Side */}
+            <div className="space-y-12 lg:order-1">
+              {/* Customizable Salary Structures */}
+              <div>
+                <h3 className="font-prompt font-medium text-3xl lg:text-3xl text-black mb-4">
+                  Skill Boosters (Micro-Courses) 
+                </h3>
+                <p className="font-prompt text-lg lg:text-lg text-black leading-relaxed">
+                 Upgrade your workforce&rsquo;s capabilities with quick-hit courses in tech, communication, teamwork, leadership, and more. 
+                </p>
+              </div>
+
+              {/* Employee Self-Service */}
+              <div>
+                <h3 className="font-prompt font-medium text-3xl lg:text-3xl text-black mb-4">
+                   Sales Mastery Programs 
+                </h3>
+                <p className="font-prompt text-lg lg:text-lg text-black leading-relaxed">
+                 Accelerate your sales pipeline with step-by-step playbooks, video-based simulations, and regionalized role-plays. 
+
+                </p>
+              </div>
+
+              {/* Seamless Integration */}
+              <div>
+                <h3 className="font-prompt font-medium text-3xl lg:text-3xl text-black mb-4">
+                 Regional Language Content
+                </h3>
+                <p className="font-prompt text-lg lg:text-lg text-black leading-relaxed">
+                Break the language barrier. All modules are available in multiple Indian languages to ensure inclusivity and deeper understanding across teams.  
+                </p>
+              </div>
+            </div>
+
+            {/* Image Container - Right Side */}
+            <div className="relative lg:order-2">
+              <div className="w-full max-w-[368px] h-[400px] rounded-3xl bg-gradient-to-br from-cyan-300 to-teal-300 shadow-lg relative overflow-hidden mx-auto">
+                {/* Person Image */}
+                <div className="absolute inset-3 rounded-3xl  overflow-hidden">
+                  <img
+                    src="/Detailes page/image 10.jpg"
+                    alt="Professional using technology"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

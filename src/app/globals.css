@@ -1,0 +1,290 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  zoom: 0.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/fonts/merriweather-bold.woff2') format('woff2'),
+    url('/fonts/merriweather-bold.woff') format('woff'),
+    url('/fonts/merriweather-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Roboto font */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-bold.woff2') format('woff2'),
+    url('/fonts/roboto-bold.woff') format('woff'),
+    url('/fonts/roboto-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('/fonts/Noto-Sans-700.woff2') format('woff2'),
+    url('/fonts/Noto-Sans-700.woff') format('woff'),
+    url('/fonts/Noto-Sans-700.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter_28pt-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url('/fonts/Inter_28pt-SemiBold.woff') format('woff');
+  font-weight: semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: url('/fonts/Inter_18pt-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('/fonts/Inter_18pt-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OSRegular';
+  src: url('/fonts/OpenSans-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OSMedium';
+  src: url('/fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OSBold';
+  src: url('/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OSSemibold';
+  src: url('/fonts/OpenSans-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PJSemibold';
+  src: url('/fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PJBold';
+  src: url('/fonts/PlusJakartaSans-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PJ';
+  src: url('/fonts/PlusJakartaSans-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXBold';
+  src: url('/fonts/Lexend-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXSemiBold';
+  src: url('/fonts/Lexend-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXEBold';
+  src: url('/fonts/LexendExa-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LXESemiBold';
+  src: url('/fonts/LexendExa-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+/* Raleway Font */
+@font-face {
+  font-family: 'RalewayBold';
+  src: url('/fonts/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url('/fonts/Raleway-SemiBold.woff') format('woff');
+  font-weight: 600;
+  /* SemiBold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewayExtraBold';
+  src: url('/fonts/Raleway-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  /* ExtraBold weight */
+  font-style: normal;
+}
+
+/* Quicksand Font */
+@font-face {
+  font-family: 'QuicksandBold';
+  src: url('/fonts/Quicksand-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'QuicksandSemiBold';
+  src: url('/fonts/Quicksand-SemiBold.woff') format('woff');
+  font-weight: 600;
+  /* SemiBold weight */
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+/* Add this in your CSS file */
+.roll-down-enter {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.roll-down-enter-active {
+  max-height: 500px;
+  /* Adjust based on content */
+}
+
+.roll-down-exit {
+  max-height: 500px;
+}
+
+.roll-down-exit-active {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+/* Fade and Slide animation for menu */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-slide-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-slide-enter-active {
+  animation: fadeSlideIn 0.5s forwards;
+}
+
+.fade-slide-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-slide-exit-active {
+  animation: fadeSlideIn 0.5s reverse forwards;
+}
+
+
+/* Global reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}

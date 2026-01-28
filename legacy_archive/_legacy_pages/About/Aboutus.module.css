@@ -1,0 +1,120 @@
+  .aboutus-container {
+    position: relative;
+    height: 600px;
+    padding: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    background-color: transparent;
+    background-image: url('/about_images/imagebg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .aboutus-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .aboutus-container {
+    scrollbar-width: none;
+  }
+
+  @media (max-width: 768px) {
+    .aboutus-container::before {
+      background-image: url('/about_images/small-image.jpg');
+      background-size: contain;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .aboutus-container::before {
+      background-image: url('/about_images/imagebg.jpg');
+      background-size: cover;
+    }
+  }
+
+  .aboutus-container-new {
+    position: relative;
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .aboutus-container-new::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/about_images/modern-building_1127-11114.png');
+    background-size: 150vh;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+
+  .rollover-text {
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .show {
+    opacity: 1;
+    animation: slideIn 1s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .line-1 {
+    color: #ff6347;
+  }
+
+  .line-1.show {
+    color: #f8f8f8;
+  }
+
+  .line-2 {
+    color: #4682b4;
+  }
+
+  .line-2.show {
+    color: #f8f8f8;
+  }
+
+  .line-3 {
+    color: #000000;
+  }
+
+  .line-3.show {
+    color: #f8f8f8;
+  }
