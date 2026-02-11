@@ -144,7 +144,7 @@ export const PRODUCTS_DROPDOWN_DATA = [
         category: "Talent Solutions",
         description: "Empower your workforce with end-to-end talent management.",
         icon: "UserSquare2",
-        href: "/products/talent-solutions/talent-management",
+        href: "/products/talent-solutions",
         image: "/assets/admin_preview.png",
         products: [
             { name: "Talent Management", href: "/products/talent-solutions/talent-management", description: "Holistic talent lifecycle management." },
@@ -167,7 +167,7 @@ export const PRODUCTS_DROPDOWN_DATA = [
         category: "Learning Solutions",
         description: "Continuous learning and development for a future-ready team.",
         icon: "Presentation",
-        href: "/products/learning-solutions/learning-management",
+        href: "/products/learning-solutions",
         image: "/assets/learning_preview.png",
         products: [
             { name: "LMS", href: "/products/learning-solutions/learning-management", description: "Comprehensive learning management." },
@@ -184,7 +184,7 @@ export const PRODUCTS_DROPDOWN_DATA = [
         category: "Finance & HR",
         description: "Streamline improved financial and HR operations.",
         icon: "Building2",
-        href: "/products/finance-hr/payroll-management",
+        href: "/products/finance-hr",
         image: "/assets/finance_preview.png",
         products: [
             { name: "Payroll Management", href: "/products/finance-hr/payroll-management", description: "Automated and accurate payroll." },
@@ -198,7 +198,7 @@ export const PRODUCTS_DROPDOWN_DATA = [
         category: "Integration",
         description: "Seamlessly connect your systems and data.",
         icon: "Rocket",
-        href: "/products/integration/system-integration",
+        href: "/products/integration",
         image: "/assets/admin_preview.png",
         products: [
             { name: "System Integration", href: "/products/integration/system-integration", description: "Connect disparate software systems." },
@@ -209,7 +209,7 @@ export const PRODUCTS_DROPDOWN_DATA = [
         category: "Analytics",
         description: "Data-driven insights for better decision making.",
         icon: "BarChart3",
-        href: "/products/analytics-solutions/team-analytics",
+        href: "/products/analytics-solutions",
         image: "/assets/analytics_preview.png",
         products: [
             { name: "Team Analytics", href: "/products/analytics-solutions/team-analytics", description: "Insights into team performance." },

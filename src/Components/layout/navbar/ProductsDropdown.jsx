@@ -58,8 +58,10 @@ export default function ProductsDropdown({
                         const IconComponent = ICON_MAP[category.icon] || Box;
 
                         return (
-                            <div
+                            <Link
                                 key={idx}
+                                href={category.href || "#"}
+                                onClick={onClose}
                                 onMouseEnter={() => setActiveCategoryIndex(idx)}
                                 className={`
                                     relative flex-1 flex items-center gap-4 px-6 rounded-xl text-left transition-all duration-300 cursor-pointer border
@@ -84,7 +86,7 @@ export default function ProductsDropdown({
                                 {activeCategoryIndex === idx && (
                                     <ChevronRight className="w-4 h-4 text-[#2A3E5C]" />
                                 )}
-                            </div>
+                            </Link>
                         );
                     })}
                 </div>

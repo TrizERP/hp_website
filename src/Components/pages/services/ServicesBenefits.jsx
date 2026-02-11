@@ -6,23 +6,23 @@ export default function ServicesBenefits() {
     const benefits = [
         {
             id: '01',
-            text: 'Stops Proxy Attendance & manual errors'
+            text: 'Eliminates Time Theft & Buddy Punching'
         },
         {
             id: '02',
-            text: 'Enhances Security with verified identities'
+            text: 'Enhances Site Security with Biometric Access'
         },
         {
             id: '03',
-            text: 'Automates Payroll & Leave Tracking'
+            text: 'Automates Payroll & Compliance Reporting'
         },
         {
             id: '04',
-            text: 'Delivers Accurate Reports in Real-Time'
+            text: 'Delivers Real-Time Operational Insights'
         },
         {
             id: '05',
-            text: 'Keeps Parents Informed Instantly'
+            text: 'Keeps Managers & Clients Informed Instantly'
         }
     ];
 
