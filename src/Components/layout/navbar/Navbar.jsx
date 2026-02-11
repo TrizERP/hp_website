@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import ProductsDropdown from "./ProductsDropdown";
 import CompanyDropdown from "./CompanyDropdown";
 import { gsap } from "gsap";
-import { MAIN_NAVIGATION } from "@/lib/data";
+import { MAIN_NAVIGATION, PRODUCTS_DROPDOWN_DATA } from "@/lib/data";
 
 const navigation = MAIN_NAVIGATION;
 
@@ -227,7 +227,7 @@ export function Navbar() {
             <img
               src="/assets/Logo.png"
               alt="Scholar Clone Logo"
-              className="h-12 w-auto transition-transform duration-500 group-hover:rotate-[360deg]"
+              className="h-12 w-auto"
             />
             <div className="flex flex-col">
               <span className="text-xl font-bold leading-none text-white">
@@ -374,16 +374,10 @@ export function Navbar() {
                   )}>
                     <div className="pl-4 pr-2 py-2 space-y-1">
                       {/* Manually mapped mobile product links matching existing routes */}
-                      {[
-                        { name: "ERP Solutions", href: "/erpservice" },
-                        { name: "LMS Solutions", href: "/lmsservice" },
-                        { name: "Career Counselling", href: "/ccservice" },
-                        { name: "Education AI", href: "/aiservice" },
-                        { name: "Communication", href: "/commservice" },
-                        { name: "Analytics", href: "/analyticsservice" },
-                      ].map((product) => (
+                      {/* Dynamically mapped mobile product links from data.js */}
+                      {PRODUCTS_DROPDOWN_DATA.map((product) => (
                         <Link
-                          key={product.name}
+                          key={product.category}
                           href={product.href}
                           className="block rounded-md px-3 py-2 text-sm text-slate-300 hover:bg-slate-700 hover:text-white"
                           onClick={() => {
@@ -391,7 +385,7 @@ export function Navbar() {
                             setMobileMenuOpen(false);
                           }}
                         >
-                          {product.name}
+                          {product.category}
                         </Link>
                       ))}
                     </div>

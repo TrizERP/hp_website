@@ -9,7 +9,7 @@ export default function AttendanceSystem() {
 
                 {/* Header - Centered Title */}
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F3B77] text-center mb-16">
-                    Biometric & RFID-Based Attendance System
+                    Biometric & Geo-Fenced Attendance System
                 </h2>
 
                 <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
@@ -29,7 +29,7 @@ export default function AttendanceSystem() {
 
                         {/* Description */}
                         <p className="text-base sm:text-lg text-[#333333] leading-relaxed">
-                            Eliminates manual tracking with fingerprint scanning, facial recognition, and RFID smart cards. Ensures real-time updates, prevents proxy attendance, and integrates with Scholar Clone ERP.
+                            Eliminate manual timesheets with fingerprint scanning, facial recognition, and mobile geo-fencing. Ensure accurate work-hour tracking, prevent buddy punching, and seamlessly integrate with your Payroll and HRMS.
                         </p>
 
                         <div className="flex flex-col gap-6">
@@ -41,60 +41,60 @@ export default function AttendanceSystem() {
                                 {/* Feature 1 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Biometric Authentication –
+                                        Multi-Mode Authentication –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Fingerprint, Facial Recognition, Iris Scan
+                                        Fingerprint, Facial Recognition, Mobile App
                                     </p>
                                 </div>
 
                                 {/* Feature 2 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        RFID Smart Cards & Readers –
+                                        Access Control Cards –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Contactless attendance at entry/exit points
+                                        Secure entry/exit for offices & restricted zones
                                     </p>
                                 </div>
 
                                 {/* Feature 3 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        ERP & Payroll Integration –
+                                        Payroll & HRMS Integration –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Auto-syncs with attendance, payroll & leaves
+                                        Auto-syncs attendance data for salary processing
                                     </p>
                                 </div>
 
                                 {/* Feature 4 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Instant Notifications –
+                                        Shift & Overtime Management –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        SMS/App alerts for student/staff check
+                                        Automated tracking of shifts, breaks, and OT
                                     </p>
                                 </div>
 
                                 {/* Feature 5 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Real-Time Reports & Analytics –
+                                        Real-Time Dashboard –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Insights on attendance trends
+                                        Monitor workforce presence across multiple sites
                                     </p>
                                 </div>
 
                                 {/* Feature 6 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Cloud & On-Premise Storage –
+                                        Centralized Cloud Data –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Secure access to records
+                                        Secure, accessible records for audits & compliance
                                     </p>
                                 </div>
 

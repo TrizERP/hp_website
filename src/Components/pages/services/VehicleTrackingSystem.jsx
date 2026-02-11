@@ -9,7 +9,7 @@ export default function VehicleTrackingSystem() {
 
                 {/* Header - Centered Title */}
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F3B77] text-center mb-16">
-                    Vehicle Tracking System (VTS)
+                    Field Force & Fleet Tracking System
                 </h2>
 
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
@@ -19,7 +19,7 @@ export default function VehicleTrackingSystem() {
 
                         {/* Description */}
                         <p className="text-base sm:text-lg text-[#333333] leading-relaxed">
-                            The Vehicle Tracking System (VTS) provides real-time GPS tracking, route optimization, and driver monitoring for safe and efficient student transportation.
+                            Optimize your logistics and field operations with our advanced GPS Tracking System. Monitor vehicle fleets, track sales force in real-time, and ensure timely deliveries and client visits.
                         </p>
 
                         <div className="flex flex-col gap-6">
@@ -31,60 +31,60 @@ export default function VehicleTrackingSystem() {
                                 {/* Feature 1 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Live GPS Tracking & Geofencing –
+                                        Live GPS Fleet Tracking –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        View real-time locations of school buses.
+                                        Real-time location and route history of vehicles.
                                     </p>
                                 </div>
 
                                 {/* Feature 2 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Driver Behavior Monitoring –
+                                        Driver Performance Analysis –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Tracks speed, sudden braking, and idling to ensure safety.
+                                        Monitor speed, idling, and harsh braking.
                                     </p>
                                 </div>
 
                                 {/* Feature 3 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        SOS & Emergency Alerts –
+                                        Geofencing & Route Alerts –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Instant notifications for breakdowns or route deviations.
+                                        Instant notifications for route deviations.
                                     </p>
                                 </div>
 
                                 {/* Feature 4 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        RFID-Based Student Bus Attendance –
+                                        Field Force Attendance –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Auto-updates attendance when students board/exit buses.
+                                        GPS-based check-ins for sales & service staff.
                                     </p>
                                 </div>
 
                                 {/* Feature 5 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Parental Tracking App –
+                                        Trip & Delivery Management –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Allows parents to track bus location and estimated arrival time.
+                                        Assign tasks and track estimated arrival times (ETA).
                                     </p>
                                 </div>
 
                                 {/* Feature 6 */}
                                 <div>
                                     <h4 className="font-bold text-black text-lg mb-1">
-                                        Route Optimization & Fuel Monitoring –
+                                        Fuel & Maintenance Reports –
                                     </h4>
                                     <p className="text-[#444444] text-base leading-snug">
-                                        Helps manage transportation efficiency and costs.
+                                        Reduce operational costs with actionable insights.
                                     </p>
                                 </div>
 
@@ -92,8 +92,8 @@ export default function VehicleTrackingSystem() {
                         </div>
                     </div>
 
-                    {/* Right Column: Image */}
-                    <div className="w-full lg:w-[45%]">
+                    {/* Right Column:   Image */}
+                    <div className="w- full lg:w-[45%]">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                             src="/assets/VTS_Services.png"
